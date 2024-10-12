@@ -54,9 +54,10 @@ Follow [the link](https://github.com/KaiyangZhou/Dassl.pytorch) to install `dass
 
 ### Data preparation
 
-<!--**Prepare datasets**
+**Prepare datasets**
 
 warning: Please note that we do not own the copyrights of any datasets we used. Please contact the original authors to get access to the images, follow [the link](https://github.com/KMnP/intentonomy).
+
 You should specify the following directory in opts.py:
 ```
 --datadir
@@ -73,10 +74,8 @@ python train.py
 
 ### Inference
 
-Results on test set and validation set, output from train.py file during training
+The results of the test set and validation set, obtained from the output of the train.py file during training
 
-
--->
 ## Citation
 
 If you find this project useful for your research, please use the following BibTeX entry.
