@@ -10,7 +10,7 @@
 
 ## Updates
 
-- :blush: (12/10/2024) Code Released!
+- :satisfied: (12/10/2024) Code Released!
 - :blush: (02/07/2024) Paper Accepted!
 
 ## Abstract
