@@ -4,8 +4,7 @@
 
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 [![Conference](http://img.shields.io/badge/ECCV-2024-6790AC.svg)](https://eccv2024.ecva.net/)
-<!-- [![Paper](http://img.shields.io/badge/Paper-arxiv.2407-B31B1B.svg)](https://arxiv.org/)
-[![Poster](http://img.shields.io/badge/Poster-5F5F5F.svg)]() -->
+[![Paper](http://img.shields.io/badge/Paper-6720AC.svg)](https://marswhu.github.io/publications/files/ECCV24_IntCLIP.pdf)
 
 </div>
 
