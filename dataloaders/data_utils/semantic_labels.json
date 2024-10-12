@@ -1,0 +1,272 @@
+{
+    "15_upper_categoris": [
+        {
+            "id": 0,
+            "name": "Occupational success"
+        },
+        {
+            "id": 1,
+            "name": "Finances"
+        },
+        {
+            "id": 2,
+            "name": "Wisdom and serenity"
+        },
+        {
+            "id": 3,
+            "name": "Self-knowledge and contentment"
+        },
+        {
+            "id": 4,
+            "name": "Appreciating beauty"
+        },
+        {
+            "id": 5,
+            "name": "Embrace and explore life"
+        },
+        {
+            "id": 6,
+            "name": "Intimacy"
+        },
+        {
+            "id": 7,
+            "name": "Relate and belong"
+        },
+        {
+            "id": 8,
+            "name": "Stability"
+        },
+        {
+            "id": 9,
+            "name": "Highly regarded"
+        },
+        {
+            "id": 10,
+            "name": "Good family life"
+        },
+        {
+            "id": 11,
+            "name": "Dominate others"
+        },
+        {
+            "id": 12,
+            "name": "Achievement"
+        },
+        {
+            "id": 13,
+            "name": "Practical competence"
+        },
+        {
+            "id": 14,
+            "name": "Health"
+        }
+    ],
+    "9_upper_upper_categoris": [
+        {
+            "id": 0,
+            "name": "Financial and occupational success"
+        },
+        {
+            "id": 1,
+            "name": "Self-fulfill"
+        },
+        {
+            "id": 2,
+            "name": "Openness to experience"
+        },
+        {
+            "id": 3,
+            "name": "Health"
+        },
+        {
+            "id": 4,
+            "name": "Ambition and ability"
+        },
+        {
+            "id": 5,
+            "name": "Power"
+        },
+        {
+            "id": 6,
+            "name": "Family"
+        },
+        {
+            "id": 7,
+            "name": "Virtues"
+        },
+        {
+            "id": 8,
+            "name": "Security and belonging"
+        }
+    ],
+    "28_categories": [
+        {
+            "id": 0,
+            "name": "Attractive, fastidious",
+            "upper_category": 8,
+            "upper_upper_category": 8
+        },
+        {
+            "id": 1,
+            "name": "Beat other, compete",
+            "upper_category": 11,
+            "upper_upper_category": 5
+        },
+        {
+            "id": 2,
+            "name": "Communicate, interpersonally effective",
+            "upper_category": 7,
+            "upper_upper_category": 8
+        },
+        {
+            "id": 3,
+            "name": "Creative, unique",
+            "upper_category": 4,
+            "upper_upper_category": 2
+        },
+        {
+            "id": 4,
+            "name": "Curious, adventurous, exciting life, exploration",
+            "upper_category": 5,
+            "upper_upper_category": 2
+        },
+        {
+            "id": 5,
+            "name": "Easy life, financial freedom",
+            "upper_category": 0,
+            "upper_upper_category": 1
+        },
+        {
+            "id": 6,
+            "name": "Enjoy life",
+            "upper_category": 5,
+            "upper_upper_category": 2
+        },
+        {
+            "id": 7,
+            "name": "Fine design learn arch",
+            "upper_category": 4,
+            "upper_upper_category": 2
+        },
+        {
+            "id": 8,
+            "name": "Fine design learn art",
+            "upper_category": 4,
+            "upper_upper_category": 2
+        },
+        {
+            "id": 9,
+            "name": "Fine design learn culture",
+            "upper_category": 4,
+            "upper_upper_category": 2
+        },
+        {
+            "id": 10,
+            "name": "Good parent, emotionally close to child",
+            "upper_category": 10,
+            "upper_upper_category": 6
+        },
+        {
+            "id": 11,
+            "name": "Happy, happiness",
+            "upper_category": 3,
+            "upper_upper_category": 1
+        },
+        {
+            "id": 12,
+            "name": "Hard working, mastery and perseverance",
+            "upper_category": 12,
+            "upper_upper_category": 4
+        },
+        {
+            "id": 13,
+            "name": "Harmony",
+            "upper_category": 2,
+            "upper_upper_category": 1
+        },
+        {
+            "id": 14,
+            "name": "Health",
+            "upper_category": 14,
+            "upper_upper_category": 3
+        },
+        {
+            "id": 15,
+            "name": "In love, emotional intimacy",
+            "upper_category": 6,
+            "upper_upper_category": 8
+        },
+        {
+            "id": 16,
+            "name": "In love with animals",
+            "upper_category": 6,
+            "upper_upper_category": 8
+        },
+        {
+            "id": 17,
+            "name": "Inspire others",
+            "upper_category": 9,
+            "upper_upper_category": 7
+        },
+        {
+            "id": 18,
+            "name": "Manageable, make plans, organize",
+            "upper_category": 13,
+            "upper_upper_category": 4
+        },
+        {
+            "id": 19,
+            "name": "Natural beauty",
+            "upper_category": 4,
+            "upper_upper_category": 2
+        },
+        {
+            "id": 20,
+            "name": "Passionate about something, persue ideals and passions",
+            "upper_category": 5,
+            "upper_upper_category": 2
+        },
+        {
+            "id": 21,
+            "name": "Playful, enjoy life",
+            "upper_category": 5,
+            "upper_upper_category": 2
+        },
+        {
+            "id": 22,
+            "name": "Share feelings with others, interpersonally effective",
+            "upper_category": 7,
+            "upper_upper_category": 8
+        },
+        {
+            "id": 23,
+            "name": "Social life, friendship",
+            "upper_category": 7,
+            "upper_upper_category": 8
+        },
+        {
+            "id": 24,
+            "name": "Success in occupation, having a good job",
+            "upper_category": 0,
+            "upper_upper_category": 2
+        },
+        {
+            "id": 25,
+            "name": "Teach others",
+            "upper_category": 9,
+            "upper_upper_category": 7
+        },
+        {
+            "id": 26,
+            "name": "Things in order, neat, tidy",
+            "upper_category": 13,
+            "upper_upper_category": 4
+        },
+        {
+            "id": 27,
+            "name": "Work I enjoy",
+            "upper_category": 0,
+            "upper_upper_category": 0
+        }
+    ]
+}

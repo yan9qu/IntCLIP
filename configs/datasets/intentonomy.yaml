@@ -1,0 +1,9 @@
+DATASET:
+  NAME: "intentonomy"
+  ROOT: "/home/yangqu/all_folder/008_clip_int/dc_debug/datasets/intent_resize"
+  VAL_SPLIT: "val"
+  TEST_SPLIT: "test"
+  TRAIN_SPLIT: "trainval"
+  ZS_TRAIN: ""
+  ZS_TEST: ""
+  ZS_TEST_UNSEEN: ""
