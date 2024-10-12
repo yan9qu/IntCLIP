@@ -11,6 +11,7 @@
 
 ## Updates
 
+- :blush: (12/10/2024) Code Released!
 - :blush: (02/07/2024) Paper Accepted!
 
 ## Abstract
@@ -37,25 +38,25 @@ conda activate intclip
 
 git clone https://github.com/yan9qu/IntCLIP.git
 cd IntCLIP
-pip install --editable .
+pip install -r requirements.txt
 cd ..
+```
+
+In the conda environment, install `pycocotools` and `randaugment` with pip:
+```
+pip install pycocotools
+pip install randaugment
 ```
 
 **Install extra dependencies**
 
-```bash
-pip install wandb einops
-```
+Follow [the link](https://github.com/KaiyangZhou/Dassl.pytorch) to install `dassl`.
 
 ### Data preparation
 
 <!--**Download datasets**
 
-:warning: Please note that we do not own the copyrights of any datasets we used. We can only share the pre-processed caption data here via [Google Drive](https://drive.google.com/drive/folders/1rmSfvKcTvVLugBWFNFtIDZuQwRPGr87U?usp=sharing). Please contact the original authors to get access to the images.
-
-**Download pre-trained models**
-
-You can download our pre-trained VQVAE via [Google Drive](https://drive.google.com/file/d/11QKoXEG1NeFqUyLg4kOjkJTgQsiYHpdu/view?usp=sharing).
+:warning: Please note that we do not own the copyrights of any datasets we used. Please contact the original authors to get access to the images.
 
 
 ### Training
@@ -63,84 +64,9 @@ You can download our pre-trained VQVAE via [Google Drive](https://drive.google.c
 Fine-tune pre-trained FashionViL on cross-modal retrieval on FashionGen:
 
 ```bash
-python mmf_cli/run.py \
-config=projects/fashionvil/configs/e2e_contrastive.yaml \
-model=fashionvil \
-dataset=fashiongen
+python train.py 
 ```
 
-Fine-tune pre-trained FashionViL on text-guided image retrieval on FashionIQ:
-
-```bash
-python mmf_cli/run.py \
-config=projects/fashionvil/configs/e2e_composition.yaml \
-model=fashionvil \
-dataset=fashioniq
-```
-
-Fine-tune pre-trained FashionViL on sub-category classification on FashionGen:
-
-```bash
-python mmf_cli/run.py \
-config=projects/fashionvil/configs/e2e_classification.yaml \
-model=fashionvil \
-dataset=fashiongen
-```
-
-Fine-tune pre-trained FashionViL on outfit complementary item retrieval on PolyvoreOutfits:
-
-```bash
-python mmf_cli/run.py \
-config=projects/ocir/configs/polyvore/defaults.yaml \
-model=csa_net \
-dataset=polyvore_ocir
-```
-
-
-### Evaluation
-
-Evaluate fine-tuned FashionViL on cross-modal retrieval on FashionGen:
-
-```bash
-python mmf_cli/run.py \
-config=projects/fashionvil/configs/e2e_contrastive.yaml \
-model=fashionvil \
-dataset=fashiongen \
-run_type=test \
-checkpoint.resume_file=save/fashionvil_contrastive_fashiongen_e2e_pretrain_final/best.ckpt
-```
-
-Evaluate fine-tuned FashionViL on text-guided image retrieval on FashionIQ:
-
-```bash
-python mmf_cli/run.py \
-config=projects/fashionvil/configs/e2e_composition.yaml \
-model=fashionvil \
-dataset=fashioniq \
-run_type=test \
-checkpoint.resume_file=save/fashionvil_composition_fashioniq_e2e_pretrain_final/best.ckpt
-```
-
-Evaluate fine-tuned FashionViL on sub-category classification on FashionGen:
-
-```bash
-python mmf_cli/run.py \
-config=projects/fashionvil/configs/e2e_classification.yaml \
-model=fashionvil \
-dataset=fashiongen \
-run_type=test \
-checkpoint.resume_file=save/fashionvil_classification_fashiongen_e2e_sub/best.ckpt
-```
-
-Evaluate fine-tuned FashionViL on outfit complementary item retrieval on PolyvoreOutfits:
-
-```bash
-python mmf_cli/run.py \
-config=projects/ocir/configs/polyvore/defaults.yaml \
-model=csa_net \
-dataset=polyvore_ocir \
-run_type=test \
-checkpoint.resume_file=save/polyvore_csa_disjoint_final/best.ckpt
 ```
 -->
 ## Citation
