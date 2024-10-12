@@ -89,5 +89,5 @@ If you find this project useful for your research, please use the following BibT
 ```
 ---
 ### :heart: We thank the following users who open repositories on Github for us to build on for our experiments
- * DualCoOp [https://github.com/asyml/texar-pytorch](https://github.com/sunxm2357/DualCoOp)
- * FameVIL [https://github.com/1Konny/Beta-VAE](https://github.com/BrandonHanx/mmf)
+ * DualCoOp [https://github.com/asyml/DualCoOp](https://github.com/sunxm2357/DualCoOp)
+ * FameVIL [https://github.com/1Konny/mmf](https://github.com/BrandonHanx/mmf)
