@@ -54,20 +54,28 @@ Follow [the link](https://github.com/KaiyangZhou/Dassl.pytorch) to install `dass
 
 ### Data preparation
 
-<!--**Download datasets**
+<!--**Prepare datasets**
 
-:warning: Please note that we do not own the copyrights of any datasets we used. Please contact the original authors to get access to the images.
-
+warning: Please note that we do not own the copyrights of any datasets we used. Please contact the original authors to get access to the images, follow [the link](https://github.com/KMnP/intentonomy).
+You should specify the following directory in opts.py:
+```
+--datadir
+--dataset_config_file
+```
 
 ### Training
 
-Fine-tune pre-trained FashionViL on cross-modal retrieval on FashionGen:
+Training IntCLIP on Intentonomy:
 
 ```bash
 python train.py 
 ```
 
-```
+### Inference
+
+Results on test set and validation set, output from train.py file during training
+
+
 -->
 ## Citation
 
