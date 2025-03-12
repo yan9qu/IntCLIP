@@ -80,11 +80,13 @@ The results of the test set and validation set, obtained from the output of the 
 If you find this project useful for your research, please use the following BibTeX entry.
 
 ```
-@inproceedings{intclip,
-    title={Synergy of Sight and Semantics: Visual Intention Understanding with CLIP},
-    author={Qu Yang, Mang Ye and Dacheng Tao},
-    booktitle={ECCV},
-    year={2024}
+@inproceedings{yang2024synergy,
+  title={Synergy of sight and semantics: visual intention understanding with clip},
+  author={Yang, Qu and Ye, Mang and Tao, Dacheng},
+  booktitle={European Conference on Computer Vision},
+  pages={144--160},
+  year={2024},
+  organization={Springer}
 }
 ```
 ---
